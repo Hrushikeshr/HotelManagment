@@ -18,4 +18,28 @@
 		<servlet-name>signup</servlet-name>
 		<url-pattern>/Signup</url-pattern>
 	</servlet-mapping>
+	
+    <!-- 	Naming the servet  -->
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>com.project.Login</servlet-class>
+	</servlet>
+	
+	<!-- 	Mapping the servet  -->
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 	Naming the servet  -->
+	<servlet>
+		<servlet-name>HotelMenu</servlet-name>
+		<servlet-class>com.project.HotelMenu</servlet-class>
+	</servlet>
+	
+	<!-- 	Mapping the servet  -->
+	<servlet-mapping>
+		<servlet-name>HotelMenu</servlet-name>
+		<url-pattern>/HotelMenu</url-pattern>
+	</servlet-mapping>
 </web-app>
