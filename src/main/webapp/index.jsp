@@ -25,18 +25,18 @@
                 <label for="foods">Choose a food:</label>
                 <select name="foods" id="foods">
                     <optgroup label="Breakfast">
-                        <option value="omlet">Omlet <span>$30</span></option>
-                        <option value="salad">Salad <span>$10</span></option>
-                        <option value="sandwitch">Sandwitch <span>$20</span></option>
-                        <option value="dosa">Dosa <span>$30</span></option>
+                        <option value="omlet">Omlet <span name="price">30</span></option>
+                        <option value="salad">Salad <span >10</span></option>
+                        <option value="sandwitch">Sandwitch <span>20</span></option>
+                        <option value="dosa">Dosa <span>30</span></option>
                     </optgroup>
                     <optgroup label="Lunch">
-                        <option value="chikenberiyani">Chiken Beriyani <span>$130</span></option>
-                        <option value="mottoncurry">Motton Curry <span>$150</span></option>
+                        <option value="chikenberiyani">Chiken Beriyani <span>130</span></option>
+                        <option value="mottoncurry">Motton Curry <span>150</span></option>
                     </optgroup>
                     <optgroup label="Dinner">
-                        <option value="pizza">Pizza <span>$100</span></option>
-                        <option value="dalroti">Dal roti <span>$40</span></option>
+                        <option value="pizza">Pizza <span>100</span></option>
+                        <option value="dalroti">Dal roti <span>40</span></option>
                     </optgroup>
                 </select>
                 
